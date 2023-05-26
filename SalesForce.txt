@@ -1,0 +1,11 @@
+https://developer.salesforce.com/signup 
+
+File ---> New ---> Select Apex Class 
+3. Type below mentioned code 
+public class FirstClass1 
+{ 
+public static void firstMethod() 
+{ 
+System. Debug('WELCOME TO METIOE NASHIK'); 
+} 
+}

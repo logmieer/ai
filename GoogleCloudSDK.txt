@@ -1,0 +1,28 @@
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-381.0.0-linux-x86_64.tar.gz
+
+
+tar -xf google-cloud-sdk-381.0.0-linux-x86_64.tar.gz
+
+cd google-cloud-sdk
+
+./install.sh
+
+close the terminal and open again.
+
+gcloud init
+
+
+To list accounts whose credentials are stored on the local system: gcloud auth list 
+
+To list the properties in your active SDK configuration: gcloud config list
+
+To view information about your Cloud SDK installation and the active SDK configuration: gcloud info 
+
+To view information about gcloud commands and other topics from the command line: gcloud help
+
+To Run The Code:
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples/appengine/standard/
+
+cd python docs- samples/appengine/standard/hello_world 
+
+dev_appserver.py app.yaml
